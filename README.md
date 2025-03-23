@@ -200,7 +200,7 @@ The following segmentation techniques were implemented and evaluated:
 - **Region based segmentation on Haar results** performed poorly giving an **IoU of 0.18**.
 ![traditional](images/traditional_t3.png)
 ![Haar](images/haar_t3.png)
-![Region on haar](region_cnn_t3.png)
+![Region on haar](images/region_cnn_t3.png)
 ## 4. Observations and Analysis
 
 - **GrabCut outperformed other methods** due to its ability to refine boundaries through iterative graph-based optimization.
@@ -252,7 +252,7 @@ The U-Net model was evaluated based on the Intersection over Union (IoU) score:
 | Model Variation | Optimizer | IoU Score  | DICE Coeff. | Epochs |
 | --------------- | --------- | ---------- | ----------- | ------ |
 | U-Net           | Adam      | **0.8764** | **0.9339**  | 50     |
-![Segmentation output U-Net](t4)
+![Segmentation output U-Net](images/t4.png)
 ## v. Observations and Analysis
 
 - Implemented on Kaggle to use **Dual GPUs for faster training**.
